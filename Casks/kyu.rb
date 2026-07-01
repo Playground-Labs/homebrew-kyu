@@ -10,7 +10,7 @@ cask "kyu" do
   desc "Menu bar prompt queue for AI agents"
   homepage "https://github.com/Playground-Labs/Kyu"
 
-  depends_on macos: ">= :catalina"
+  depends_on macos: :catalina
 
   app "Kyu.app"
 
