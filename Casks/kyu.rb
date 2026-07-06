@@ -1,9 +1,9 @@
 cask "kyu" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.2.2"
-  sha256 arm:   "c905570cd957d20acead5e68ae7b806cf2939a5eac09bda47bcaf0fb313df523",
-         intel: "fdb73613fd5712a7efd8800bc049ce7760bc96edb6747ec324487cefb3148ff3"
+  version "0.3.0"
+  sha256 arm:   "9450e874593a982fee133d7feed649892fad36d11c4dc74dbc63fa5dec5bbd71",
+         intel: "df06a2de2e524725a39017743ca3f4c80185325001b96e3a56cf358e983d4065"
 
   url "https://github.com/Playground-Labs/Kyu/releases/download/v#{version}/Kyu_#{version}_#{arch}.dmg"
   name "Kyu"
